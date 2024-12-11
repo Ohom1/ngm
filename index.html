@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechBooks - Your IT Knowledge Hub</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container">
+                <div class="contact-info">
+                    <span><i class="fas fa-phone"></i> +1 (555) 123-4567</span>
+                    <span><i class="fas fa-envelope"></i> support@techbooks.com</span>
+                </div>
+                <div class="user-actions">
+                    <a href="#login"><i class="fas fa-user"></i> Login</a>
+                    <a href="#register">Register</a>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="logo">
+                    <h1>TechBooks</h1>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search by title, author, or ISBN...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="cart">
+                    <a href="#cart">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <nav class="category-nav">
+            <div class="container">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop Books</a></li>
+                    <li class="dropdown">
+                        <a href="#categories">Categories <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#programming">Programming Languages</a></li>
+                            <li><a href="#web">Web Development</a></li>
+                            <li><a href="#data">Data Science</a></li>
+                            <li><a href="#cloud">Cloud Computing</a></li>
+                            <li><a href="#cyber">Cybersecurity</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-slider">
+            <div class="container">
+                <div class="slider-content">
+                    <div class="slide active">
+                        <div class="slide-content">
+                            <h2>Master Modern Web Development</h2>
+                            <p>Discover the latest books on React, Node.js, and Modern JavaScript</p>
+                            <a href="#shop-now" class="btn">Shop Now</a>
+                        </div>
+                        <div class="slide-image">
+                            <img src="https://via.placeholder.com/500x300" alt="Web Development Books">
+                        </div>
+                    </div>
+                </div>
+                <div class="slider-controls">
+                    <button class="prev"><i class="fas fa-chevron-left"></i></button>
+                    <button class="next"><i class="fas fa-chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-categories">
+            <div class="container">
+                <h2 class="section-title">Featured Categories</h2>
+                <div class="category-grid">
+                    <div class="category-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                        <p>Master popular programming languages</p>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web Development</h3>
+                        <p>Build modern web applications</p>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-database"></i>
+                        <h3>Data Science</h3>
+                        <p>Learn data analysis and ML</p>
+                    </div>
+                    <div class="category-card">
+                        <i class="fas fa-cloud"></i>
+                        <h3>Cloud Computing</h3>
+                        <p>Master cloud technologies</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="featured-books">
+            <div class="container">
+                <h2 class="section-title">Bestselling Books</h2>
+                <div class="book-grid">
+                    <!-- Book cards will be dynamically added via JavaScript -->
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials">
+            <div class="container">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-card">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p>"Great selection of technical books. The delivery was quick and the prices are competitive!"</p>
+                        <div class="author">- John Doe, Software Developer</div>
+                    </div>
+                    <!-- More testimonials will be added -->
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for the latest books and exclusive offers!</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email address">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h3>About TechBooks</h3>
+                    <p>Your one-stop shop for all IT and programming books. We offer the latest and most comprehensive collection of technical literature.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Tech Street, Silicon Valley, CA</p>
+                    <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> support@techbooks.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; <span id="current-year"></span> TechBooks. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
